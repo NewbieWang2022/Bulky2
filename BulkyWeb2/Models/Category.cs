@@ -7,7 +7,7 @@ namespace BulkyWeb2.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public int Name { get; set; }
+        public String Name { get; set; }
         public int DisplayOrder { get; set; }
 
     }
